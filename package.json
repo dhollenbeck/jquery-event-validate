@@ -6,15 +6,13 @@
   "directories": {
     "example": "examples"
   },
-  "dependencies": {
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-uglify": "^3.1.0",
-    "grunt-eslint": "^20.1.0"
-  },
   "devDependencies": {
     "@esscorp/eslint": "^2.1.0",
-    "eslint": "^3.18.0",
-    "grunt": "^1.0.2"
+    "eslint": "^4.18.1",
+    "grunt": "^1.0.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.4.0",
+    "grunt-eslint": "^20.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

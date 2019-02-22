@@ -8,6 +8,7 @@
 
 		$.each(errors, function(name, message) {
 			var selector = '[name="' + name + '"]';
+			if ($.isArray(message)) message = message[0];
 			var data = {
 				field: name,
 				validator: 'server',
